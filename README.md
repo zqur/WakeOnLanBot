@@ -4,16 +4,16 @@
 
 _Embedded telegram bot for ESP32 boards to send a WOL packet on a local network._  
 
-
+![wol](https://github.com/user-attachments/assets/d1c67ed3-0f1c-4acf-a76b-0b1b02f8b9bb)
 
 </div>
 
 ## 📄 Description
 This is the setup process for the **M5Atom** ESP32 board. A telegram bot is hosted on the board and listens for user commands, when the `/wol` command is received a Wake-on-Lan packet is broadcasted on the local network in order to turn on targeted device.
 
-🪙 The board can stay running for about **1$** in electricity per year, the power consumption is less than half a watt. (Mileage may vary depending on ESP32 board used)
+⚡ The board can stay running for about **1$** in electricity per year, the power consumption is less than half a watt. (Mileage may vary depending on ESP32 board used)
 
-## ⚙️ Installation
+## 💿 Installation
 
 - Install the following libraries from the Library Manager of the Arduino IDE:
   - [M5Atom](https://www.arduino.cc/reference/en/libraries/m5atom/): needed for the M5Atom board, if using a different board please download corresponding libraries.
@@ -24,7 +24,7 @@ This is the setup process for the **M5Atom** ESP32 board. A telegram bot is host
 - Fill your _WiFi configuration_ and the _MAC address_ of the PC you want to power on
 - Compile and flash
 
-## 🔎 Usage
+## 💡 Usage
 
 - Use `/start` to get a list of the available commands
 - Use the `/wol` command or press the physical button to turn on your PC
